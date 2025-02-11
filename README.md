@@ -13,8 +13,10 @@
 
 - [probe-rs](https://probe.rs/docs/getting-started/installation/)
 
+- []
+
 - Build and flash:
   ```
-  cargo build --target thumbv7em-none-eabihfnk
+  cargo build --target thumbv7em-none-eabihf
   probe-rs run target/thumbv7em-none-eabihf/debug/nrf52840-blink
   ```
